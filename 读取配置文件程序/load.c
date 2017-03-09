@@ -4,9 +4,13 @@
 #include <assert.h>
 #include <ctype.h>
 #include <errno.h>
-#include "reload.h"
 #define DEF_PROFILE_NUM_LEN 2048
 #define STRING_LEN 30
+
+#ifndef RELOAD_H
+#include "reload.h"
+#endif
+
 
 
 
