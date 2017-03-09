@@ -20,6 +20,9 @@
 #include "reload.h"
 #include "open62541.h"
 
+#define RELOAD_H RELOAD_H_H 
+
+
 #define DEF_PROFILE_NUM_LEN 64
 #define STRING_LEN 30
 #define OPCUA_SERVER_PORT 16664
